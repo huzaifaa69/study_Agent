@@ -1,4 +1,4 @@
-# 📚 Study Agent — AI-Powered Study Assistant
+# Study Agent — AI-Powered Study Assistant
 
 A fully free RAG-based AI agent that lets you chat with your lecture PDFs,
 generate MCQs, summaries, and flashcards using Groq's free LLM API.
@@ -7,7 +7,7 @@ https://studyagent001.streamlit.app/
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 study_agent/
@@ -24,7 +24,7 @@ study_agent/
 
 ---
 
-## ⚙️ Setup — Step by Step
+## Setup — Step by Step
 
 ### Step 1: Get your FREE Groq API Key
 1. Go to → https://console.groq.com
@@ -63,7 +63,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Upload PDFs** — Drop your lecture notes/textbook PDFs in the sidebar
 2. **Click "Process PDFs"** — Builds the knowledge base (30 sec first time)
@@ -74,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 💡 How It Works (RAG Pipeline)
+## How It Works (RAG Pipeline)
 
 ```
 Your PDF
@@ -98,7 +98,7 @@ Answer + source references shown to user
 
 ---
 
-## 🆓 Everything is FREE
+## Everything is FREE
 
 | Component | Tool | Cost |
 |---|---|---|
