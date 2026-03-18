@@ -3,7 +3,7 @@
 A fully free RAG-based AI agent that lets you chat with your lecture PDFs,
 generate MCQs, summaries, and flashcards using Groq's free LLM API.
 **Working Link:**
- Live Demo — Study Agent
+ https://studyagent001.streamlit.app/
 
 ---
 
