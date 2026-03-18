@@ -91,7 +91,7 @@ User asks question
    ↓
 ChromaDB finds top 4 most relevant chunks (semantic search)
    ↓
-Groq Llama3-70B generates answer using those chunks
+Groq llama-3.3-70b-versatile generates answer using those chunks
    ↓
 Answer + source references shown to user
 ```
@@ -102,7 +102,7 @@ Answer + source references shown to user
 
 | Component | Tool | Cost |
 |---|---|---|
-| LLM (Brain) | Groq Llama3-70B | Free tier |
+| LLM (Brain) | Groq llama-3.3-70b-versatile | Free tier |
 | Embeddings | all-MiniLM-L6-v2 | Free (local) |
 | Vector DB | ChromaDB | Free (local) |
 | UI | Streamlit | Free |
