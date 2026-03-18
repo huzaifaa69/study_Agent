@@ -2,6 +2,8 @@
 
 A fully free RAG-based AI agent that lets you chat with your lecture PDFs,
 generate MCQs, summaries, and flashcards using Groq's free LLM API.
+**Working Link:**
+https://studyagent001.streamlit.app/
 
 ---
 
@@ -109,23 +111,4 @@ Answer + source references shown to user
 
 ---
 
-## ☁️ Deploy Free on Streamlit Cloud
 
-1. Push this project to GitHub
-2. Go to → https://share.streamlit.io
-3. Connect your GitHub repo
-4. Set secret: `GROQ_API_KEY = your_key_here`
-5. Deploy → get a public URL to share!
-
----
-
-## 📦 Add to Your Resume As:
-
-**Study Agent — RAG-based AI Study Assistant**
-*Python, LangChain, Groq Llama3, ChromaDB, HuggingFace Embeddings, Streamlit*
-- Built a production-grade RAG pipeline enabling semantic search over academic PDFs
-  with conversational Q&A, MCQ generation, summarization, and flashcard features
-- Implemented local embedding generation using all-MiniLM-L6-v2 with ChromaDB
-  persistent vector storage, reducing re-embedding time by 100% on subsequent loads
-- Deployed as a Streamlit web app with multi-tab UI supporting chat history,
-  source attribution, and downloadable study materials
